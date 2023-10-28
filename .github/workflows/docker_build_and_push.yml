@@ -22,4 +22,4 @@ jobs:
       - name: Build and Push Docker Image
         run: |
           docker build -t muizdev/crmfrontend:latest .
-          docker push muizdev/crmfrontend:latestatest
+          docker push muizdev/crmfrontend:latest
